@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: c93e2177e63c742fbb87657d57b2ac4c
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Active Camera
+    100002: back door
+    100004: back door glass
+    100006: back door glass_ReferenceRep
+    100008: back door glass_ReferenceRep 1
+    100010: back door glass_ReferenceRep 2
+    100012: back door glass_ReferenceRep 3
+    100014: back door_ReferenceRep
+    100016: back door_ReferenceRep 1
+    100018: back door_ReferenceRep 2
+    100020: back door_ReferenceRep 3
+    100022: benz assembly
+    100024: dashboard
+    100026: dashboard_ReferenceRep
+    100028: dashboard_ReferenceRep 1
+    100030: dashboard_ReferenceRep 2
+    100032: dashboard_ReferenceRep 3
+    100034: Default
+    100036: dippers
+    100038: dippers 1
+    100040: dippers_ReferenceRep
+    100042: dippers_ReferenceRep 1
+    100044: dippers_ReferenceRep 2
+    100046: dippers_ReferenceRep 3
+    100048: dippers_ReferenceRep 4
+    100050: dippers_ReferenceRep 5
+    100052: dippers_ReferenceRep 6
+    100054: dippers_ReferenceRep 7
+    100056: door handle
+    100058: door handle 1
+    100060: door handle 2
+    100062: door handle 3
+    100064: door handle_ReferenceRep
+    100066: door handle_ReferenceRep 1
+    100068: door handle_ReferenceRep 10
+    100070: door handle_ReferenceRep 11
+    100072: door handle_ReferenceRep 12
+    100074: door handle_ReferenceRep 13
+    100076: door handle_ReferenceRep 14
+    100078: door handle_ReferenceRep 15
+    100080: door handle_ReferenceRep 2
+    100082: door handle_ReferenceRep 3
+    100084: door handle_ReferenceRep 4
+    100086: door handle_ReferenceRep 5
+    100088: door handle_ReferenceRep 6
+    100090: door handle_ReferenceRep 7
+    100092: door handle_ReferenceRep 8
+    100094: door handle_ReferenceRep 9
+    100096: front door glass 2
+    100098: front door glass 2 1
+    100100: front door glass 2_ReferenceRep
+    100102: front door glass 2_ReferenceRep 1
+    100104: front door glass 2_ReferenceRep 2
+    100106: front door glass 2_ReferenceRep 3
+    100108: front door glass 2_ReferenceRep 4
+    100110: front door glass 2_ReferenceRep 5
+    100112: front door glass 2_ReferenceRep 6
+    100114: front door glass 2_ReferenceRep 7
+    100116: front door glass1
+    100118: front door glass1 1
+    100120: front door glass1_ReferenceRep
+    100122: front door glass1_ReferenceRep 1
+    100124: front door glass1_ReferenceRep 2
+    100126: front door glass1_ReferenceRep 3
+    100128: front door glass1_ReferenceRep 4
+    100130: front door glass1_ReferenceRep 5
+    100132: front door glass1_ReferenceRep 6
+    100134: front door glass1_ReferenceRep 7
+    100136: //RootNode
+    100138: grill
+    100140: grill_ReferenceRep
+    100142: grill_ReferenceRep 1
+    100144: grill_ReferenceRep 2
+    100146: grill_ReferenceRep 3
+    100148: grill_ReferenceRep 4
+    100150: grill_ReferenceRep 5
+    100152: grill_ReferenceRep 6
+    100154: headlight
+    100156: headlight 1
+    100158: headlight_ReferenceRep
+    100160: headlight_ReferenceRep 1
+    100162: headlight_ReferenceRep 2
+    100164: headlight_ReferenceRep 3
+    100166: headlight_ReferenceRep 4
+    100168: headlight_ReferenceRep 5
+    100170: headlight_ReferenceRep 6
+    100172: headlight_ReferenceRep 7
+    100174: interior
+    100176: interior 1
+    100178: interior_ReferenceRep
+    100180: interior_ReferenceRep 1
+    100182: interior_ReferenceRep 2
+    100184: interior_ReferenceRep 3
+    100186: interior_ReferenceRep 4
+    100188: interior_ReferenceRep 5
+    100190: interior_ReferenceRep 6
+    100192: interior_ReferenceRep 7
+    100194: left door 2
+    100196: left door 2_ReferenceRep
+    100198: left door 2_ReferenceRep 1
+    100200: left door 2_ReferenceRep 2
+    100202: left door 2_ReferenceRep 3
+    100204: left door1
+    100206: left door1_ReferenceRep
+    100208: left door1_ReferenceRep 1
+    100210: left door1_ReferenceRep 2
+    100212: left door1_ReferenceRep 3
+    100214: Part1
+    100216: Part1_ReferenceRep
+    100218: Part1_ReferenceRep 1
+    100220: Part1_ReferenceRep 2
+    100222: Part1_ReferenceRep 3
+    100224: Part1_ReferenceRep 4
+    100226: Part1_ReferenceRep 5
+    100228: Part1_ReferenceRep 6
+    100230: Part2
+    100232: Part2_ReferenceRep
+    100234: Part2_ReferenceRep 1
+    100236: Part2_ReferenceRep 2
+    100238: Part2_ReferenceRep 3
+    100240: rear car seat
+    100242: rear car seat_ReferenceRep
+    100244: rear car seat_ReferenceRep 1
+    100246: rear car seat_ReferenceRep 2
+    100248: rear car seat_ReferenceRep 3
+    100250: rear glass
+    100252: rear glass 1
+    100254: rear glass_ReferenceRep
+    100256: rear glass_ReferenceRep 1
+    100258: rear glass_ReferenceRep 2
+    100260: rear glass_ReferenceRep 3
+    100262: rear glass_ReferenceRep 4
+    100264: rear glass_ReferenceRep 5
+    100266: rear glass_ReferenceRep 6
+    100268: rear glass_ReferenceRep 7
+    100270: rim
+    100272: rim 1
+    100274: rim 2
+    100276: rim 3
+    100278: rim_ReferenceRep
+    100280: rim_ReferenceRep 1
+    100282: rim_ReferenceRep 10
+    100284: rim_ReferenceRep 11
+    100286: rim_ReferenceRep 12
+    100288: rim_ReferenceRep 13
+    100290: rim_ReferenceRep 14
+    100292: rim_ReferenceRep 15
+    100294: rim_ReferenceRep 2
+    100296: rim_ReferenceRep 3
+    100298: rim_ReferenceRep 4
+    100300: rim_ReferenceRep 5
+    100302: rim_ReferenceRep 6
+    100304: rim_ReferenceRep 7
+    100306: rim_ReferenceRep 8
+    100308: rim_ReferenceRep 9
+    100310: sdgsg
+    100312: sdgsg_ReferenceRep
+    100314: sdgsg_ReferenceRep 1
+    100316: sdgsg_ReferenceRep 2
+    100318: sdgsg_ReferenceRep 3
+    100320: spare tyre
+    100322: spare tyre_ReferenceRep
+    100324: spare tyre_ReferenceRep 1
+    100326: spare tyre_ReferenceRep 2
+    100328: spare tyre_ReferenceRep 3
+    100330: tail light
+    100332: tail light 1
+    100334: tail light_ReferenceRep
+    100336: tail light_ReferenceRep 1
+    100338: tail light_ReferenceRep 2
+    100340: tail light_ReferenceRep 3
+    100342: tail light_ReferenceRep 4
+    100344: tail light_ReferenceRep 5
+    100346: tail light_ReferenceRep 6
+    100348: tail light_ReferenceRep 7
+    100350: transmission
+    100352: transmission_ReferenceRep
+    100354: transmission_ReferenceRep 1
+    100356: transmission_ReferenceRep 2
+    100358: transmission_ReferenceRep 3
+    100360: wheel rim
+    100362: wheel rim 1
+    100364: wheel rim 2
+    100366: wheel rim 3
+    100368: wheel rim_ReferenceRep
+    100370: wheel rim_ReferenceRep 1
+    100372: wheel rim_ReferenceRep 10
+    100374: wheel rim_ReferenceRep 11
+    100376: wheel rim_ReferenceRep 12
+    100378: wheel rim_ReferenceRep 13
+    100380: wheel rim_ReferenceRep 14
+    100382: wheel rim_ReferenceRep 15
+    100384: wheel rim_ReferenceRep 16
+    100386: wheel rim_ReferenceRep 17
+    100388: wheel rim_ReferenceRep 18
+    100390: wheel rim_ReferenceRep 19
+    100392: wheel rim_ReferenceRep 2
+    100394: wheel rim_ReferenceRep 20
+    100396: wheel rim_ReferenceRep 21
+    100398: wheel rim_ReferenceRep 22
+    100400: wheel rim_ReferenceRep 23
+    100402: wheel rim_ReferenceRep 24
+    100404: wheel rim_ReferenceRep 25
+    100406: wheel rim_ReferenceRep 26
+    100408: wheel rim_ReferenceRep 27
+    100410: wheel rim_ReferenceRep 3
+    100412: wheel rim_ReferenceRep 4
+    100414: wheel rim_ReferenceRep 5
+    100416: wheel rim_ReferenceRep 6
+    100418: wheel rim_ReferenceRep 7
+    100420: wheel rim_ReferenceRep 8
+    100422: wheel rim_ReferenceRep 9
+    100424: windshield
+    100426: windshield_ReferenceRep
+    100428: windshield_ReferenceRep 1
+    100430: windshield_ReferenceRep 2
+    100432: windshield_ReferenceRep 3
+    400000: Active Camera
+    400002: back door
+    400004: back door glass
+    400006: back door glass_ReferenceRep
+    400008: back door glass_ReferenceRep 1
+    400010: back door glass_ReferenceRep 2
+    400012: back door glass_ReferenceRep 3
+    400014: back door_ReferenceRep
+    400016: back door_ReferenceRep 1
+    400018: back door_ReferenceRep 2
+    400020: back door_ReferenceRep 3
+    400022: benz assembly
+    400024: dashboard
+    400026: dashboard_ReferenceRep
+    400028: dashboard_ReferenceRep 1
+    400030: dashboard_ReferenceRep 2
+    400032: dashboard_ReferenceRep 3
+    400034: Default
+    400036: dippers
+    400038: dippers 1
+    400040: dippers_ReferenceRep
+    400042: dippers_ReferenceRep 1
+    400044: dippers_ReferenceRep 2
+    400046: dippers_ReferenceRep 3
+    400048: dippers_ReferenceRep 4
+    400050: dippers_ReferenceRep 5
+    400052: dippers_ReferenceRep 6
+    400054: dippers_ReferenceRep 7
+    400056: door handle
+    400058: door handle 1
+    400060: door handle 2
+    400062: door handle 3
+    400064: door handle_ReferenceRep
+    400066: door handle_ReferenceRep 1
+    400068: door handle_ReferenceRep 10
+    400070: door handle_ReferenceRep 11
+    400072: door handle_ReferenceRep 12
+    400074: door handle_ReferenceRep 13
+    400076: door handle_ReferenceRep 14
+    400078: door handle_ReferenceRep 15
+    400080: door handle_ReferenceRep 2
+    400082: door handle_ReferenceRep 3
+    400084: door handle_ReferenceRep 4
+    400086: door handle_ReferenceRep 5
+    400088: door handle_ReferenceRep 6
+    400090: door handle_ReferenceRep 7
+    400092: door handle_ReferenceRep 8
+    400094: door handle_ReferenceRep 9
+    400096: front door glass 2
+    400098: front door glass 2 1
+    400100: front door glass 2_ReferenceRep
+    400102: front door glass 2_ReferenceRep 1
+    400104: front door glass 2_ReferenceRep 2
+    400106: front door glass 2_ReferenceRep 3
+    400108: front door glass 2_ReferenceRep 4
+    400110: front door glass 2_ReferenceRep 5
+    400112: front door glass 2_ReferenceRep 6
+    400114: front door glass 2_ReferenceRep 7
+    400116: front door glass1
+    400118: front door glass1 1
+    400120: front door glass1_ReferenceRep
+    400122: front door glass1_ReferenceRep 1
+    400124: front door glass1_ReferenceRep 2
+    400126: front door glass1_ReferenceRep 3
+    400128: front door glass1_ReferenceRep 4
+    400130: front door glass1_ReferenceRep 5
+    400132: front door glass1_ReferenceRep 6
+    400134: front door glass1_ReferenceRep 7
+    400136: //RootNode
+    400138: grill
+    400140: grill_ReferenceRep
+    400142: grill_ReferenceRep 1
+    400144: grill_ReferenceRep 2
+    400146: grill_ReferenceRep 3
+    400148: grill_ReferenceRep 4
+    400150: grill_ReferenceRep 5
+    400152: grill_ReferenceRep 6
+    400154: headlight
+    400156: headlight 1
+    400158: headlight_ReferenceRep
+    400160: headlight_ReferenceRep 1
+    400162: headlight_ReferenceRep 2
+    400164: headlight_ReferenceRep 3
+    400166: headlight_ReferenceRep 4
+    400168: headlight_ReferenceRep 5
+    400170: headlight_ReferenceRep 6
+    400172: headlight_ReferenceRep 7
+    400174: interior
+    400176: interior 1
+    400178: interior_ReferenceRep
+    400180: interior_ReferenceRep 1
+    400182: interior_ReferenceRep 2
+    400184: interior_ReferenceRep 3
+    400186: interior_ReferenceRep 4
+    400188: interior_ReferenceRep 5
+    400190: interior_ReferenceRep 6
+    400192: interior_ReferenceRep 7
+    400194: left door 2
+    400196: left door 2_ReferenceRep
+    400198: left door 2_ReferenceRep 1
+    400200: left door 2_ReferenceRep 2
+    400202: left door 2_ReferenceRep 3
+    400204: left door1
+    400206: left door1_ReferenceRep
+    400208: left door1_ReferenceRep 1
+    400210: left door1_ReferenceRep 2
+    400212: left door1_ReferenceRep 3
+    400214: Part1
+    400216: Part1_ReferenceRep
+    400218: Part1_ReferenceRep 1
+    400220: Part1_ReferenceRep 2
+    400222: Part1_ReferenceRep 3
+    400224: Part1_ReferenceRep 4
+    400226: Part1_ReferenceRep 5
+    400228: Part1_ReferenceRep 6
+    400230: Part2
+    400232: Part2_ReferenceRep
+    400234: Part2_ReferenceRep 1
+    400236: Part2_ReferenceRep 2
+    400238: Part2_ReferenceRep 3
+    400240: rear car seat
+    400242: rear car seat_ReferenceRep
+    400244: rear car seat_ReferenceRep 1
+    400246: rear car seat_ReferenceRep 2
+    400248: rear car seat_ReferenceRep 3
+    400250: rear glass
+    400252: rear glass 1
+    400254: rear glass_ReferenceRep
+    400256: rear glass_ReferenceRep 1
+    400258: rear glass_ReferenceRep 2
+    400260: rear glass_ReferenceRep 3
+    400262: rear glass_ReferenceRep 4
+    400264: rear glass_ReferenceRep 5
+    400266: rear glass_ReferenceRep 6
+    400268: rear glass_ReferenceRep 7
+    400270: rim
+    400272: rim 1
+    400274: rim 2
+    400276: rim 3
+    400278: rim_ReferenceRep
+    400280: rim_ReferenceRep 1
+    400282: rim_ReferenceRep 10
+    400284: rim_ReferenceRep 11
+    400286: rim_ReferenceRep 12
+    400288: rim_ReferenceRep 13
+    400290: rim_ReferenceRep 14
+    400292: rim_ReferenceRep 15
+    400294: rim_ReferenceRep 2
+    400296: rim_ReferenceRep 3
+    400298: rim_ReferenceRep 4
+    400300: rim_ReferenceRep 5
+    400302: rim_ReferenceRep 6
+    400304: rim_ReferenceRep 7
+    400306: rim_ReferenceRep 8
+    400308: rim_ReferenceRep 9
+    400310: sdgsg
+    400312: sdgsg_ReferenceRep
+    400314: sdgsg_ReferenceRep 1
+    400316: sdgsg_ReferenceRep 2
+    400318: sdgsg_ReferenceRep 3
+    400320: spare tyre
+    400322: spare tyre_ReferenceRep
+    400324: spare tyre_ReferenceRep 1
+    400326: spare tyre_ReferenceRep 2
+    400328: spare tyre_ReferenceRep 3
+    400330: tail light
+    400332: tail light 1
+    400334: tail light_ReferenceRep
+    400336: tail light_ReferenceRep 1
+    400338: tail light_ReferenceRep 2
+    400340: tail light_ReferenceRep 3
+    400342: tail light_ReferenceRep 4
+    400344: tail light_ReferenceRep 5
+    400346: tail light_ReferenceRep 6
+    400348: tail light_ReferenceRep 7
+    400350: transmission
+    400352: transmission_ReferenceRep
+    400354: transmission_ReferenceRep 1
+    400356: transmission_ReferenceRep 2
+    400358: transmission_ReferenceRep 3
+    400360: wheel rim
+    400362: wheel rim 1
+    400364: wheel rim 2
+    400366: wheel rim 3
+    400368: wheel rim_ReferenceRep
+    400370: wheel rim_ReferenceRep 1
+    400372: wheel rim_ReferenceRep 10
+    400374: wheel rim_ReferenceRep 11
+    400376: wheel rim_ReferenceRep 12
+    400378: wheel rim_ReferenceRep 13
+    400380: wheel rim_ReferenceRep 14
+    400382: wheel rim_ReferenceRep 15
+    400384: wheel rim_ReferenceRep 16
+    400386: wheel rim_ReferenceRep 17
+    400388: wheel rim_ReferenceRep 18
+    400390: wheel rim_ReferenceRep 19
+    400392: wheel rim_ReferenceRep 2
+    400394: wheel rim_ReferenceRep 20
+    400396: wheel rim_ReferenceRep 21
+    400398: wheel rim_ReferenceRep 22
+    400400: wheel rim_ReferenceRep 23
+    400402: wheel rim_ReferenceRep 24
+    400404: wheel rim_ReferenceRep 25
+    400406: wheel rim_ReferenceRep 26
+    400408: wheel rim_ReferenceRep 27
+    400410: wheel rim_ReferenceRep 3
+    400412: wheel rim_ReferenceRep 4
+    400414: wheel rim_ReferenceRep 5
+    400416: wheel rim_ReferenceRep 6
+    400418: wheel rim_ReferenceRep 7
+    400420: wheel rim_ReferenceRep 8
+    400422: wheel rim_ReferenceRep 9
+    400424: windshield
+    400426: windshield_ReferenceRep
+    400428: windshield_ReferenceRep 1
+    400430: windshield_ReferenceRep 2
+    400432: windshield_ReferenceRep 3
+    2000000: Active Camera
+    2100000: back door_ReferenceRep_color_128_128_128
+    2100002: left door1_ReferenceRep_color_128_128_128
+    2100004: left door 2_ReferenceRep_color_128_128_128
+    2100006: Part2_ReferenceRep_color_128_128_128
+    2100008: sdgsg_ReferenceRep_color_128_128_128
+    2100010: Part1_ReferenceRep_color_128_128_128
+    2100012: interior_ReferenceRep_color_128_128_128
+    2100014: dashboard_ReferenceRep_color_128_128_128
+    2100016: rear car seat_ReferenceRep_color_128_128_128
+    2100018: transmission_ReferenceRep_color_128_128_128
+    2100020: rim_ReferenceRep_color_128_128_128
+    2100022: spare tyre_ReferenceRep_color_128_128_128
+    2100024: wheel rim_ReferenceRep_color_128_128_128
+    2100026: back door glass_ReferenceRep_color_128_128_128
+    2100028: front door glass1_ReferenceRep_color_128_128_128
+    2100030: front door glass 2_ReferenceRep_color_128_128_128
+    2100032: rear glass_ReferenceRep_color_128_128_128
+    2100034: windshield_ReferenceRep_color_128_128_128
+    2100036: dippers_ReferenceRep_color_128_128_128
+    2100038: headlight_ReferenceRep_color_128_128_128
+    2100040: tail light_ReferenceRep_color_128_128_128
+    2100042: grill_ReferenceRep_color_128_128_128
+    2100044: door handle_ReferenceRep_color_128_128_128
+    2300000: back door glass_ReferenceRep 3
+    2300002: back door_ReferenceRep 3
+    2300004: dashboard_ReferenceRep 3
+    2300006: dippers_ReferenceRep 6
+    2300008: dippers_ReferenceRep 7
+    2300010: door handle_ReferenceRep 12
+    2300012: door handle_ReferenceRep 13
+    2300014: door handle_ReferenceRep 14
+    2300016: door handle_ReferenceRep 15
+    2300018: front door glass 2_ReferenceRep 6
+    2300020: front door glass 2_ReferenceRep 7
+    2300022: front door glass1_ReferenceRep 6
+    2300024: front door glass1_ReferenceRep 7
+    2300026: grill_ReferenceRep 5
+    2300028: grill_ReferenceRep 6
+    2300030: headlight_ReferenceRep 6
+    2300032: headlight_ReferenceRep 7
+    2300034: interior_ReferenceRep 6
+    2300036: interior_ReferenceRep 7
+    2300038: left door 2_ReferenceRep 3
+    2300040: left door1_ReferenceRep 3
+    2300042: Part1_ReferenceRep 5
+    2300044: Part1_ReferenceRep 6
+    2300046: Part2_ReferenceRep 3
+    2300048: rear car seat_ReferenceRep 3
+    2300050: rear glass_ReferenceRep 6
+    2300052: rear glass_ReferenceRep 7
+    2300054: rim_ReferenceRep 12
+    2300056: rim_ReferenceRep 13
+    2300058: rim_ReferenceRep 14
+    2300060: rim_ReferenceRep 15
+    2300062: sdgsg_ReferenceRep 3
+    2300064: spare tyre_ReferenceRep 3
+    2300066: tail light_ReferenceRep 6
+    2300068: tail light_ReferenceRep 7
+    2300070: transmission_ReferenceRep 3
+    2300072: wheel rim_ReferenceRep 20
+    2300074: wheel rim_ReferenceRep 21
+    2300076: wheel rim_ReferenceRep 22
+    2300078: wheel rim_ReferenceRep 23
+    2300080: wheel rim_ReferenceRep 24
+    2300082: wheel rim_ReferenceRep 25
+    2300084: wheel rim_ReferenceRep 26
+    2300086: wheel rim_ReferenceRep 27
+    2300088: windshield_ReferenceRep 3
+    3300000: back door glass_ReferenceRep 3
+    3300002: back door_ReferenceRep 3
+    3300004: dashboard_ReferenceRep 3
+    3300006: dippers_ReferenceRep 6
+    3300008: dippers_ReferenceRep 7
+    3300010: door handle_ReferenceRep 12
+    3300012: door handle_ReferenceRep 13
+    3300014: door handle_ReferenceRep 14
+    3300016: door handle_ReferenceRep 15
+    3300018: front door glass 2_ReferenceRep 6
+    3300020: front door glass 2_ReferenceRep 7
+    3300022: front door glass1_ReferenceRep 6
+    3300024: front door glass1_ReferenceRep 7
+    3300026: grill_ReferenceRep 5
+    3300028: grill_ReferenceRep 6
+    3300030: headlight_ReferenceRep 6
+    3300032: headlight_ReferenceRep 7
+    3300034: interior_ReferenceRep 6
+    3300036: interior_ReferenceRep 7
+    3300038: left door 2_ReferenceRep 3
+    3300040: left door1_ReferenceRep 3
+    3300042: Part1_ReferenceRep 5
+    3300044: Part1_ReferenceRep 6
+    3300046: Part2_ReferenceRep 3
+    3300048: rear car seat_ReferenceRep 3
+    3300050: rear glass_ReferenceRep 6
+    3300052: rear glass_ReferenceRep 7
+    3300054: rim_ReferenceRep 12
+    3300056: rim_ReferenceRep 13
+    3300058: rim_ReferenceRep 14
+    3300060: rim_ReferenceRep 15
+    3300062: sdgsg_ReferenceRep 3
+    3300064: spare tyre_ReferenceRep 3
+    3300066: tail light_ReferenceRep 6
+    3300068: tail light_ReferenceRep 7
+    3300070: transmission_ReferenceRep 3
+    3300072: wheel rim_ReferenceRep 20
+    3300074: wheel rim_ReferenceRep 21
+    3300076: wheel rim_ReferenceRep 22
+    3300078: wheel rim_ReferenceRep 23
+    3300080: wheel rim_ReferenceRep 24
+    3300082: wheel rim_ReferenceRep 25
+    3300084: wheel rim_ReferenceRep 26
+    3300086: wheel rim_ReferenceRep 27
+    3300088: windshield_ReferenceRep 3
+    4300000: back door_ReferenceRep
+    4300002: left door1_ReferenceRep
+    4300004: left door 2_ReferenceRep
+    4300006: Part2_ReferenceRep
+    4300008: sdgsg_ReferenceRep
+    4300010: Part1_ReferenceRep
+    4300012: Part1_ReferenceRep
+    4300014: interior_ReferenceRep
+    4300016: dashboard_ReferenceRep
+    4300018: rear car seat_ReferenceRep
+    4300020: transmission_ReferenceRep
+    4300022: interior_ReferenceRep
+    4300024: rim_ReferenceRep
+    4300026: spare tyre_ReferenceRep
+    4300028: wheel rim_ReferenceRep
+    4300030: wheel rim_ReferenceRep
+    4300032: wheel rim_ReferenceRep
+    4300034: wheel rim_ReferenceRep
+    4300036: wheel rim_ReferenceRep
+    4300038: wheel rim_ReferenceRep
+    4300040: wheel rim_ReferenceRep
+    4300042: wheel rim_ReferenceRep
+    4300044: rim_ReferenceRep
+    4300046: rim_ReferenceRep
+    4300048: rim_ReferenceRep
+    4300050: back door glass_ReferenceRep
+    4300052: front door glass1_ReferenceRep
+    4300054: front door glass 2_ReferenceRep
+    4300056: rear glass_ReferenceRep
+    4300058: windshield_ReferenceRep
+    4300060: front door glass1_ReferenceRep
+    4300062: rear glass_ReferenceRep
+    4300064: front door glass 2_ReferenceRep
+    4300066: dippers_ReferenceRep
+    4300068: headlight_ReferenceRep
+    4300070: tail light_ReferenceRep
+    4300072: headlight_ReferenceRep
+    4300074: dippers_ReferenceRep
+    4300076: tail light_ReferenceRep
+    4300078: grill_ReferenceRep
+    4300080: grill_ReferenceRep
+    4300082: door handle_ReferenceRep
+    4300084: door handle_ReferenceRep
+    4300086: door handle_ReferenceRep
+    4300088: door handle_ReferenceRep
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
