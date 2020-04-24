@@ -58,6 +58,7 @@ using UnityEngine;
         private float OriginalWheelSteerL;
         public float AccelInput { get; private set; }
         public bool isTurbo = false;
+        public static bool isCollitionLoop = false;
         // Use this for initialization
         public ParticleSystem  turboParticle;
 
@@ -83,9 +84,17 @@ using UnityEngine;
             m_MaxHandbrakeTorque = float.MaxValue;
 
             m_Rigidbody = GetComponent<Rigidbody>();
+            // m_Rigidbody.centerOfMass = m_CentreOfMassOffset;
             m_CurrentTorque = m_FullTorqueOverAllWheels - (m_TractionControl*m_FullTorqueOverAllWheels);
         }
+        public void scaleCar(float factor){
+            if(factor<0)
+                 factor = Math.Abs(factor);
+            else if(factor>=0)
+                  factor += 1.0f;
 
+            m_WheelColliders[0].attachedRigidbody.centerOfMass  = new Vector3(m_CentreOfMassOffset.x * factor,m_CentreOfMassOffset.y * factor,m_CentreOfMassOffset.z * factor);
+        }
 
         private void GearChanging()
         {
@@ -174,7 +183,7 @@ using UnityEngine;
             m_WheelColliders[0].steerAngle = m_SteerAngle;
             m_WheelColliders[1].steerAngle = m_SteerAngle;
 
-            SteerHelper();
+            // SteerHelper();
             TurboPartile();
             if(isTurbo)
                  accel = 2f;
@@ -205,7 +214,7 @@ using UnityEngine;
             CalculateRevs();
             GearChanging();
 
-            AddDownForce();
+            // AddDownForce();
             CheckForWheelSpin();
             TractionControl();
              CarLoopHelp();
@@ -213,24 +222,28 @@ using UnityEngine;
         }
         int count = 0;
         bool isLooping = false;
-        public static bool isCollitionLoop = false;
+
         private void CarLoopHelp(){
             float angle = m_Rigidbody.transform.localEulerAngles.x;
-           if(angle > 270 && angle < 285){
+            if(isCollitionLoop){
+                if(angle > 270 && angle < 285){
                 isLooping = true;
-            }
-            
-            if(isLooping){
-                m_Rigidbody.useGravity = false;
-                count ++;
-            }else{
-                 m_Rigidbody.useGravity = true;
-                 count = 0 ;
-            }
-            if((angle > 20 && angle < 25) || count > 30){
-                isLooping = false;
+                }
+                
+                if(isLooping){
+                    m_Rigidbody.useGravity = false;
+                    count ++;
+                }else{
+                    m_Rigidbody.useGravity = true;
+                    count = 0 ;
+                }
+                if((angle > 20 && angle < 25) || count > 30){
+                    isLooping = false;
+                    isCollitionLoop = false;
 
+                }
             }
+           
             
             
         }

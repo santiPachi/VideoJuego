@@ -20,6 +20,8 @@ public class LevelSelector : MonoBehaviour
             container.GetComponent<Button>().onClick.AddListener(()=> LoadLevel(sceneName));
         }
     }
+
+   
     private void LoadLevel(string sceneName){
         UIMainMenu.SetActive(false);
         SceneManager.LoadScene(sceneName);

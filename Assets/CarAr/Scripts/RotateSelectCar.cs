@@ -5,7 +5,8 @@ using UnityEngine;
 public class RotateSelectCar : MonoBehaviour
 {
     // Start is called before the first frame update
-    public int numberCars;
+    public List<GameObject> Cars;
+    private int numberCars;
     private bool isNext = false;
     private bool isBack = false;
     private bool Rotate = false;
@@ -16,7 +17,8 @@ public class RotateSelectCar : MonoBehaviour
     private float DegOutRange;
     void Start()
     {
-        
+        numberCars = Cars.Count;
+        hideCars(0);
     }
 
     // Update is called once per frame
@@ -25,9 +27,27 @@ public class RotateSelectCar : MonoBehaviour
         
         RotateCar();
     }
+    private void hideCars(int i){
+        int count = 0;
+        foreach(GameObject car in Cars){
+            RotateCarOwnAxis rot = car.GetComponent<RotateCarOwnAxis>();
+            if(count != i){
+                rot.StopRotateCar();
+                car.SetActive(false);
+            }else{
+                car.SetActive(true);
+                rot.RotateCar();
+               
+            }
+            count ++;
+           
+        }
+    }
     private void RotateCar(){
         if(Rotate){
             if(CarNum >= 0 && CarNum < numberCars){
+                if(deg==0)
+                    hideCars(CarNum);
                 if(deg < 30f){
                     this.transform.Rotate(0f,countDeg,0f);
                     deg += countAux;
@@ -43,6 +63,7 @@ public class RotateSelectCar : MonoBehaviour
                     CarNum = 0;
                     DegOutRange = 360 - 30*(numberCars-1);
                 }
+                hideCars(CarNum);
                 this.transform.Rotate(0f,DegOutRange,0f);
                 Rotate = false;
             }
@@ -69,17 +90,6 @@ public class RotateSelectCar : MonoBehaviour
     }
 
     public void SelectCar(){
-        switch(CarNum){
-            case 0:
-                     PlayerConfig.CarName = "Car"; break;
-            case 1:
-                     PlayerConfig.CarName = "ClassG"; break;
-            case 2:
-                     PlayerConfig.CarName = "MercedezAmg"; break;
-            case 3: 
-                    PlayerConfig.CarName = "TeslaTruck"; break;
-            case 4: 
-                    PlayerConfig.CarName = "MonsterTruck"; break;
-        }
+        PlayerConfig.CarName = Cars[CarNum].name;
     }
 }

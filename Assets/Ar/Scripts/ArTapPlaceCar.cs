@@ -17,6 +17,7 @@ public class ArTapPlaceCar : MonoBehaviour
      public Slider slideScene;
      private bool toScaleScene;
      private Vector3 localScale;
+
     //  public LongPressButton btReload;
     private ARSessionOrigin arOrigin;
     private Pose placementPose;
@@ -24,15 +25,20 @@ public class ArTapPlaceCar : MonoBehaviour
     private bool isInstantiate = false;
     private bool isEnviromentPlaced = false;
     private bool placementPoseIsValid = false;
+    private Pose placementPoseAux;
+    private bool isPlacementPoseAux;
     // Start is called before the first frame update
-    void Start()
-    {   
-        toScaleScene = false;
-        arOrigin = FindObjectOfType<ARSessionOrigin>(); 
+    void Awake() {
         enviroment.SetActive(false);
         localScale = enviroment.transform.localScale;
         Player.LoadPrefav();
         placementIndicator = Instantiate(Player.carPref);
+    }
+    void Start()
+    {   
+        toScaleScene = false;
+        arOrigin = FindObjectOfType<ARSessionOrigin>(); 
+       
         // placementIndicator.SetActive(false);
         
     }
@@ -48,6 +54,13 @@ public class ArTapPlaceCar : MonoBehaviour
         if(toScaleScene){
             ScaleScene();
         }
+        if(isPlaced){
+            if(Player.car.GetComponent<Renderer>().isVisible){
+                print("Visible");
+            }else{
+                print("Invisible");
+            }
+        }
         // ReloadScene();
     }
     public void StartScaleScene(){
@@ -56,6 +69,8 @@ public class ArTapPlaceCar : MonoBehaviour
     } 
     public void StopScaleScene(){
         toScaleScene = false;
+        CarController carController = Player.car.GetComponent<CarController>();
+        carController.scaleCar(slideScene.value);
 
     }
     private void ScaleScene(){
@@ -90,7 +105,7 @@ public class ArTapPlaceCar : MonoBehaviour
                 placementIndicator.SetActive(false);
                 isPlaced = true;
                 isEnviromentPlaced = true;
-                aRPlaneManager.enabled = false;
+                 aRPlaneManager.enabled = false;
                 // UiScan.SetActive(true);
         }
     }
@@ -111,17 +126,38 @@ public class ArTapPlaceCar : MonoBehaviour
         }
 
     }
+    private bool lagPlacementIndicator(){
+        if( placementPoseIsValid){
+          if(!isPlacementPoseAux){
+                isPlacementPoseAux = true;
+                placementPoseAux = placementPose;
+                return false;
+            }else{
+                float diff = Math.Abs(placementPose.position.y - placementPoseAux.position.y);
+                if(diff < 0.05)
+                    return true;
+            }
+
+
+        }
+        return false;
+    }
      private void  UpdatePlacementIndicator(){
 
         if( placementPoseIsValid){
             Debug.Log("ALt "+ placementPose.position.y);
+            
             if(isEnviromentPlaced){
-                if(placementPose.position.y > enviroment.transform.position.y ){
+                if(placementPose.position.y >= enviroment.transform.position.y ){
                  placementIndicator.SetActive(true);
                  placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);
                 }else{
                     placementIndicator.SetActive(false);
                 }
+
+                
+
+
             }else{
                  placementIndicator.SetActive(true);
                  placementIndicator.transform.SetPositionAndRotation(placementPose.position, placementPose.rotation);

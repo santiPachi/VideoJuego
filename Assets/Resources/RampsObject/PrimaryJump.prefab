@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 457bafabf801940679d57a5c778a6b5f, type: 2}
+  - {fileID: 2100000, guid: adef612c1a8ca4c018c55bdcb13c7261, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -87,7 +87,7 @@ MeshCollider:
   m_GameObject: {fileID: 4502226973004919803}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
@@ -101,6 +101,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 598151041322062271}
+  - component: {fileID: 7317694884384799165}
+  - component: {fileID: 4785951789771415469}
   m_Layer: 0
   m_Name: PrimaryJump
   m_TagString: Untagged
@@ -123,3 +125,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &7317694884384799165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293708593244897483}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.36807132, y: 0.21594024, z: 0.43828556}
+  m_Center: {x: 0.000000059604645, y: 0.10532153, z: -0.000000044703484}
+--- !u!114 &4785951789771415469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5293708593244897483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d5364ffba0774504a86f50901d512c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isColliding: 0
+  listRamps:
+  - {fileID: 4502226973004919803}
+  matNormal: {fileID: 2100000, guid: 457bafabf801940679d57a5c778a6b5f, type: 2}
+  matWarning: {fileID: 2100000, guid: f8764751379f049448eb2a01331a4b73, type: 2}

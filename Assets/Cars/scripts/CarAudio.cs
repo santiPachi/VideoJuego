@@ -49,7 +49,11 @@ namespace UnityStandardAssets.Vehicles.Car
         private bool m_StartedSound; // flag for knowing if we have started sounds
         private CarController m_CarController; // Reference to car we are controlling
 
-
+      
+        void Start()
+        {
+            StartSound();
+        }
         private void StartSound()
         {
             // get the carcontroller ( this will not be null as we have require component)
@@ -87,19 +91,19 @@ namespace UnityStandardAssets.Vehicles.Car
         private void Update()
         {
             // get the distance to main camera
-            float camDist = (Camera.main.transform.position - transform.position).sqrMagnitude;
+            // float camDist = (Camera.main.transform.position - transform.position).sqrMagnitude;
 
             // stop sound if the object is beyond the maximum roll off distance
-            if (m_StartedSound && camDist > maxRolloffDistance*maxRolloffDistance)
-            {
-                StopSound();
-            }
+            // if (m_StartedSound && camDist > maxRolloffDistance*maxRolloffDistance)
+            // {
+            //     StopSound();
+            // }
 
-            // start the sound if not playing and it is nearer than the maximum distance
-            if (!m_StartedSound && camDist < maxRolloffDistance*maxRolloffDistance)
-            {
-                StartSound();
-            }
+            // // start the sound if not playing and it is nearer than the maximum distance
+            // if (!m_StartedSound && camDist < maxRolloffDistance*maxRolloffDistance)
+            // {
+                
+            // }
 
             if (m_StartedSound)
             {
